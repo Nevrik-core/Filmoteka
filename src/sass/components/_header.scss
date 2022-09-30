@@ -35,6 +35,7 @@
 
 .header--library {
   background-image: url('../images/header-library-mobile.jpeg');
+  padding-bottom: 56px;
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -43,7 +44,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    padding-bottom: 60px;
+    padding-bottom: 56px;
     background-image: url('../images/header-library-tablet.jpeg');
 
     @media (min-device-pixel-ratio: 2),

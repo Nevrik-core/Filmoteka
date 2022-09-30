@@ -2,20 +2,20 @@
   "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ddekerr.github.io/Filmoteka",
+  "homepage": "https://Nevrik-core.github.io/Filmoteka",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ddekerr/Filmoteka.git"
+    "url": "git+https://github.com/Nevrik-core/Filmoteka.git"
   },
   "keywords": [],
-  "author": "GoIT 11 Team <dimon.bond.94@gmail.com>",
+  "author": "GoIT 6 Team <ili.nandr.ii.85@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ddekerr/Filmoteka/issues"
+    "url": "https://github.com/Nevrik-core/Filmoteka/issues"
   },
   "dependencies": {
     "axios": "^0.27.2",

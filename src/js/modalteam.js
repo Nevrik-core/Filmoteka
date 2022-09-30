@@ -4,8 +4,9 @@
     closeModalTeamButton: document.querySelector('.modalteam__close'),
     modalTeam: document.querySelector('.backdropteam.backdrop'),
     backdropTeam: document.querySelector('.backdropteam'),
+    team: document.querySelector('.modalteam')
   };
-
+  refs.team.style.opacity = "0";
   if (refs.openModalTeamButton) {
     refs.openModalTeamButton.addEventListener('click', openModalTeam);
   }
@@ -16,6 +17,7 @@
 
   function openModalTeam(event) {
     event.preventDefault();
+    refs.team.style.opacity = "1";
     refs.modalTeam.classList.toggle('is-open');
     document.body.style.overflow = 'hidden';
     document.addEventListener('keydown', offModalForEscape);
@@ -23,6 +25,7 @@
   }
 
   function closeModalTeam() {
+    refs.team.style.opacity = "0";
     refs.modalTeam.classList.toggle('is-open');
     document.body.style.overflow = 'overlay';
     document.removeEventListener('keydown', offModalForEscape);
